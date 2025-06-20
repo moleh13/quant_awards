@@ -1,0 +1,16 @@
+# .gitignore for quant_awards
+__pycache__/
+*.pyc
+.env
+.env.*
+*.sqlite3
+*.db
+*.log
+.cache/
+.ipynb_checkpoints/
+data/raw/
+data/processed/
+models/
+figures/
+wandb/
+mlruns/

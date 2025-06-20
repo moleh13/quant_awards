@@ -1,0 +1,30 @@
+# Python environment specification for quant_awards
+
+[tool.poetry]
+name = "quant_awards"
+version = "0.1.0"
+description = "Graph-Guided RL Crypto Portfolio Optimization"
+authors = ["Your Name <your@email.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+numpy = "*"
+pandas = "*"
+scipy = "*"
+scikit-learn = "*"
+stable-baselines3 = "*"
+gymnasium = "*"
+torch = "*"
+networkx = "*"
+torch-geometric = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
+python-binance = "*"
+wandb = "*"
+mlflow = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
