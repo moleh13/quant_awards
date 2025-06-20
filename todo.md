@@ -5,7 +5,7 @@
 ---
 
 ## 0. Project Setup
-- [ ] Create project repo & directory structure (`data/`, `src/`, `notebooks/`, `reports/`, `models/`, `figures/`)
+- [x] Create project repo & directory structure (`data/`, `src/`, `notebooks/`, `reports/`, `models/`, `figures/`)
 - [ ] Define Python environment (conda/poetry) with required libraries  
   - core: `numpy`, `pandas`, `scipy`, `scikit-learn`  
   - RL: `stable-baselines3`, `gymnasium` / `gym`  
