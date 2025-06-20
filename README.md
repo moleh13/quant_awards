@@ -14,6 +14,7 @@ This repository implements a regime-aware, graph-guided deep reinforcement-learn
 1. Install [Poetry](https://python-poetry.org/docs/#installation).
 2. Run `poetry install` to create the environment and install dependencies.
 3. Copy `.env.example` to `.env` and add your Binance API keys.
+4. Fill in your Weights & Biases and MLflow credentials in `.env`.
 
 ## Experiment Tracking
 - Supports [Weights & Biases](https://wandb.ai/) and [MLflow](https://mlflow.org/).

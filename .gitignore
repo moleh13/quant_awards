@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .env
 .env.*
+!.env.example
 *.sqlite3
 *.db
 *.log
@@ -10,7 +11,9 @@ __pycache__/
 .ipynb_checkpoints/
 data/raw/
 data/processed/
-models/
-figures/
+models/*
+!models/README.md
+figures/*
+!figures/README.md
 wandb/
 mlruns/
